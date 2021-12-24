@@ -1,0 +1,28 @@
+.btn {
+  font-weight: bold;
+  font-size: 30px;
+  line-height: 37px;
+  padding: 31px 61px;
+  cursor: pointer;
+  border-radius: 10px;
+
+  &:disabled {
+    cursor: default;
+    opacity: 0.3;
+  }
+
+  &--yellow {
+    color: #212549;
+    background: #EFC25E;
+  }
+
+  &--violet {
+    color: #fff;
+    background: #6C78E0;
+  }
+
+  &--red {
+    color: #fff;
+    background: #D93F3F;
+  }
+}

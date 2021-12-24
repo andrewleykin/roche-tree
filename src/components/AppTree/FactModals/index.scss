@@ -1,0 +1,28 @@
+.fact {
+  position: relative;
+  text-align: center;
+  z-index: 0;
+  padding-top: 80px;
+}
+
+.fact__img {
+  position: absolute;
+  z-index: -1;
+  left: 50%;
+  transform: translateX(-50%);
+  top: -40px;
+  min-width: max-content;
+}
+
+.fact__title {
+  font-weight: bold;
+  font-size: 120px;
+  line-height: 133px;
+}
+
+.fact__text {
+  font-size: 60px;
+  line-height: 78px;
+  max-width: 1400px;
+  margin: 200px auto 0;
+}

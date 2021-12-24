@@ -1,0 +1,38 @@
+.tooltip {
+  background-color: transparent !important;
+  border: none !important;
+}
+
+.fond-info__block {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 100%;
+  min-width: 840px;
+  max-width: 840px;
+  padding: 90px 75px;
+  background: rgba(34, 42, 113, 0.99);
+  backdrop-filter: blur(38px);
+  border-radius: 65px;
+}
+
+.fond-info__close {
+  width: 25px;
+  background-color: transparent;
+  padding: 5px;
+  cursor: pointer;
+  z-index: 100;
+  position: absolute;
+  right: 56px;
+  top: 56px;
+}
+
+.fond-info__block-text {
+  font-size: 30px;
+  line-height: 39px;
+  max-width: 611px;
+  span {
+    font-weight: bold;
+    color: #EFC25E;
+  }
+}

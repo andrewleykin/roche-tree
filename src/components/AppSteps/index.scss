@@ -1,0 +1,54 @@
+.steps {
+  margin-bottom: 155px;
+  
+  svg.hidden {
+    overflow: hidden;
+    visibility: hidden;
+  }
+}
+
+.steps__list {
+  max-width: 1960px;
+  margin: 0 auto 30px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.steps__item {
+  width: 100%;
+  max-width: 510px;
+  margin-bottom: 100px;
+  position: relative;
+  z-index: 0;
+}
+
+.steps__icon {
+  position: absolute;
+  left: -30px;
+  top: -15px;
+  max-width: 180px;
+  height: 74px;
+  z-index: -1;
+}
+
+.steps__step {
+  font-weight: bold;
+  font-size: 40px;
+  line-height: 49px;
+  margin-bottom: 25px;
+  display: block;
+}
+
+.steps__text {
+  font-size: 25px;
+  line-height: 32px;
+}
+
+.steps__actions {
+  display: flex;
+  justify-content: center;
+  & > * + * {
+    margin-left: 45px;
+  }
+}

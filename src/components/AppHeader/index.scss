@@ -1,0 +1,29 @@
+.header {
+  text-align: center;
+  margin-bottom: 90px;
+  padding-top: 75px;
+}
+
+.header__img {
+  min-width: calc(100% + 40px);
+  margin-left: -20px;
+}
+
+.header__title {
+  font-weight: bold;
+  font-size: 90px;
+  line-height: 110px;
+  display: block;
+  max-width: 1316px;
+  margin: -40px auto 38px;
+  span {
+    color: #EFC25E;
+  }
+}
+
+.header__descr {
+  font-size: 30px;
+  line-height: 39px;
+  max-width: 1728px;
+  margin: 0 auto;
+}

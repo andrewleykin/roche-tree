@@ -1,0 +1,54 @@
+.donation {
+  padding-top: 20px;
+}
+
+.donation__title {
+  font-weight: bold;
+  font-size: 60px;
+  line-height: 67px;
+  text-align: center;
+  margin-bottom: 100px;
+}
+
+.donation__list {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-bottom: -80px;
+}
+
+.donation__item {
+  width: 100%;
+  max-width: 33%;
+  margin-bottom: 80px;
+  text-align: center;
+}
+
+.donation__item-img {
+  max-width: 142px;
+  border-radius: 50%;
+  overflow: hidden;
+  margin: 0 auto 30px;
+}
+
+.donation__item-title {
+  font-weight: bold;
+  font-size: 30px;
+  line-height: 39px;
+  display: block;
+  margin-bottom: 30px;
+}
+
+.donation__item-link {
+  background: #D93F3F;
+  border-radius: 10px;
+  color: #fff;
+  font-weight: bold;
+  font-size: 30px;
+  line-height: 37px;
+  padding: 20px 86px;
+  display: inline-block;
+  &:hover {
+    background-color: darken(#D93F3F, 5%);
+  }
+}

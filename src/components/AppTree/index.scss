@@ -1,0 +1,21 @@
+.tree-svg {
+  display: flex;
+  justify-content: center;
+  svg:not(.activeTree) {
+    #toys g[filter],
+    #star g[filter] {
+      display: none;
+    }
+  }
+
+  svg.activeTree {
+    #toys > g > g:not([filter]),
+    #star > g:not([filter]) {
+      display: none;
+    }
+  }
+}
+
+.tooltip {
+  font-size: 50px !important;
+}
